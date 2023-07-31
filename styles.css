@@ -25,6 +25,8 @@ body {
 
 .header {
     padding: 23px 0;
+    background: #F3F6EF;
+    box-shadow: 0px 1px 14px 0px rgba(0, 0, 0, 0.12);
 }
 
 .header .container {
@@ -63,4 +65,75 @@ body {
 
 .currency {
     margin-left: auto;
+}
+
+.main-content {
+    padding-top: 127px;
+    padding-bottom: 97px;
+}
+
+.main-content .container {
+    position: relative;
+}
+
+.main-info {
+    max-width: 400px;
+}
+
+.main-title {
+    font-family: Avenir;
+    font-size: 54px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 115%;
+}
+
+.main-text {
+    color: var(--ed-space, #6E6C72);
+    font-family: Avenir;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%;
+    margin-top: 31px;
+    margin-bottom: 55px;
+}
+
+.main-image {
+    position: absolute;
+    top: 0px;
+    left: calc(100% - 720px);
+}
+
+.main-ellipse {
+    position: absolute;
+    top: -50%;
+    left: 65%;
+    max-width: 821px;
+    z-index: -1;
+}
+
+.button {
+    border-radius: 40px;
+    background: var(--gradient, linear-gradient(129deg, #6BFFCA 0%, #00FF47 100%));
+    width: 245px;
+    height: 55px;
+    box-sizing: border-box;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0;
+    cursor: pointer;
+    outline: none;
+    font-size: 18px;
+    color: #191411;
+    font-weight: 600;
+    color: var(--ed-space, #2F2A37);
+    font-family: Avenir;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 120%;
+    text-transform: uppercase;
 }
